@@ -61,7 +61,7 @@ body {
                 padding: 10px 10px 10px 15px;
 
                 aside {
-                    border: 1px solid black;
+
 
                     &.left {
                         width: 30%;
@@ -119,14 +119,22 @@ body {
 
                             &.link {
                                 text-align: right;
+                                text-transform: uppercase;
+                                text-decoration: none;
+
+
+                                a {
+                                    color: var(--uofuRed);
+                                }
+
+                                &.hovered {
+                                    text-decoration: underline;
+                                }
                             }
 
                         }
 
-                            a {
-                            color: var(--uofuRed);
 
-                            }
                 }
                 }
 
