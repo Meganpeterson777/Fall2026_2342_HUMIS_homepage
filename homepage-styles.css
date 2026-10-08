@@ -68,6 +68,8 @@ body {
                         float: left;
 
 
+
+
                         nav {
                             a {
                                 display: block;
@@ -82,6 +84,7 @@ body {
                                 &:hover {
                                     background-color: #505A2F;
                                     color: white;
+
                                 }
                             }
                         }
@@ -90,6 +93,7 @@ body {
                         div.links {
                             margin: 50px auto 0;
                             width: 153px;
+
                         }
                     }
 
