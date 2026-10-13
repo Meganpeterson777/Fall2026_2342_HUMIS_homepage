@@ -13,6 +13,12 @@ body {
         width: 780px;
         min-height: 600px;
 
+        header {
+            img{
+                display: block;
+            }
+        }
+
         section.middle {
             display: flex;
 
@@ -49,13 +55,12 @@ body {
                     .links {
                         display: flex;
                         flex-direction: column;
-                        border: 1px solid black;
+                        margin-bottom: 2rem;
                     }
                 }
 
                 &.right-side {
                     width: 70%;
-                    min-height: 600px;
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
@@ -90,7 +95,7 @@ body {
                     }
 
                     main {
-                        border: 1px dotted black;
+
 
                         img {
                             &.pull-right {

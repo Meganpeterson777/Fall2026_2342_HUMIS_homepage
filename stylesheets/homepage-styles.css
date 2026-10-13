@@ -12,9 +12,15 @@ body {
         margin: 0 auto; /* tb rl */
         background-color: white;
 
+        header {
+            img{
+                display: block;
+            }
+        }
+
         section.middle {
             padding: 5px 10px;
-            background-image: url('files/uofu_medallion_rt.gif');
+            background-image: url('../files/uofu_medallion_rt.gif');
             background-position: bottom right;
             background-repeat: no-repeat;
 
@@ -93,6 +99,7 @@ body {
                         div.links {
                             margin: 50px auto 0;
                             width: 153px;
+
 
                         }
                     }
