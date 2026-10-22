@@ -39,12 +39,31 @@ body {
 
     h6 {
         font-size: 1rem;
+        margin-bottom: 0;
     }
 
     p {
         text-align: justify;
         font-size: 1rem;
+
+        &.learn-more {
+            text-align: right;
+
+            a {
+                color: var(--burgundy);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .shrug {
+            font-size: 1.5rem;
+            color: var(--burgundy);
+            font-weight: bold;
+            font-family: "Helvetica", serif;
+        }
     }
-
-
 }
