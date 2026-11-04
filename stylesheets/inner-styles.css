@@ -16,6 +16,7 @@ body {
         background-color: #fff;
         width: 780px;
         min-height: 600px;
+        }
 
         header {
             img{
@@ -74,6 +75,8 @@ body {
                     flex-direction: column;
                     padding: 5px 20px;
 
+
+
                     nav.secondary {
                         display: flex;
                         justify-content: flex-end;
@@ -101,6 +104,8 @@ body {
 
                     }
 
+
+
                     main {
                         min-height: 600px;
                     }
@@ -119,5 +124,5 @@ body {
         padding: 10px 0;
 
     }
-}
+
 

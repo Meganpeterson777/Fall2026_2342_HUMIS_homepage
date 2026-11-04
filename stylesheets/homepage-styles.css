@@ -13,7 +13,7 @@ body {
         background-color: white;
 
         header {
-            img{
+            img {
                 display: block;
             }
         }
@@ -41,9 +41,9 @@ body {
                     }
 
                     &:last-of-type {
-                          border-right: none;
-                            padding-left: unset;
-                      }
+                        border-right: none;
+                        padding-left: unset;
+                    }
                 }
 
 
@@ -68,12 +68,9 @@ body {
 
                 aside {
 
-
                     &.left {
                         width: 30%;
                         float: left;
-
-
 
 
                         nav {
@@ -85,7 +82,7 @@ body {
                                 text-transform: uppercase;
                                 padding: 10px 0 10px 10px;
                                 font-size: 10px;
-                                font-family: "Helvetica";
+                                font-family: Helvetica, sans-serif;
 
                                 &:hover {
                                     background-color: #505A2F;
@@ -99,8 +96,6 @@ body {
                         div.links {
                             margin: 50px auto 0;
                             width: 153px;
-
-
                         }
                     }
 
@@ -111,15 +106,13 @@ body {
                         background-color: white;
                         padding: 10px;
 
-
                         h1 {
                             text-transform: uppercase;
                             color: #505A2F;
                             border-bottom: 2px dashed var(--uofuRed);
                             font-size: 16px;
                             font-weight: normal;
-
-                    }
+                        }
 
                         p {
                             font-size: 12px;
@@ -133,7 +126,6 @@ body {
                                 text-transform: uppercase;
                                 text-decoration: none;
 
-
                                 a {
                                     color: var(--uofuRed);
                                 }
@@ -142,13 +134,9 @@ body {
                                     text-decoration: underline;
                                 }
                             }
-
                         }
-
-
+                    }
                 }
-                }
-
             }
         }
 
