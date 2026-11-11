@@ -1,5 +1,13 @@
 main {
 
+    .c-logo {
+        img {
+            max-width: 30px;
+            max-height: 35px;
+        }
+
+    }
+
     aside.pull {
         display: inline-block;
         max-width: 150px;
@@ -21,6 +29,20 @@ main {
         &.right {
             float: right;
             margin: 0 0 5px 15px;
+
+            .bowl {
+                height: 15px;
+                width: 15px;
+                padding-right: 67px;
+                padding-top: 15px;
+
+                img {
+                    height: 85px;
+                    width: 82px;
+                    border-radius: 10px;
+                }
+            }
+
 
             img {
                 border-radius: 10px;

@@ -19,6 +19,12 @@ section.horizontal-two-column-layout {
 
             div.top {
                 div.category {
+                    p {
+                       font-size: 0.8rem;
+                        font-weight: bold;
+                        margin-bottom: 0.1rem;
+                    }
+
                     a {
                         display: block;
                         text-decoration: none;
@@ -32,6 +38,7 @@ section.horizontal-two-column-layout {
 
                         &.active {
                             font-weight: bold;
+                            margin-top: 0.7rem;
                         }
                     }
 
@@ -53,7 +60,6 @@ section.horizontal-two-column-layout {
                     span {
                         display: block;
 
-
                         &.name {
                             font-weight: bold;
                             font-size: 0.6rem;
@@ -64,7 +70,6 @@ section.horizontal-two-column-layout {
                         display: block;
                         color: black;
                         text-decoration: none;
-
 
                         &:hover {
                             text-decoration: underline;
@@ -78,10 +83,24 @@ section.horizontal-two-column-layout {
         &.right-column {
             width: 70%;
 
+            .c-logo {
+                display: flex;
+                gap: .5rem;
+                padding-top: 0.28em;
+
+                h6 {
+                    margin-bottom: 0.5rem;
+                    margin-top: 0.5rem;
+                }
+            }
+
+
+
 
             a {
                 color: var(--burgundy);
                 font-size: 0.7rem;
+                text-decoration: none;
 
                     &:hover {
                         text-decoration: underline;
@@ -92,7 +111,7 @@ section.horizontal-two-column-layout {
             div.right-info {
 
                 p {
-                    font-size: .6em;
+                    font-size: 0.6em;
 
                     .italic {
                         font-style: italic;
@@ -120,17 +139,16 @@ section.horizontal-two-column-layout {
     }
 
 
-section.contact-form {
-    margin-top: 5rem;
-    border: 4px solid green;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
+        section.contact-form {
+            border: 4px solid green;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: flex-start;
 
-    label {
-        display: flex;
-        gap: 1rem;
+            label {
+                display: flex;
+                gap: 1rem;
+            }
+        }
     }
-}
-}
